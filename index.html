@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ToDo List</title>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="./css//design.css">
+        <link rel="stylesheet" href="./css/all.min.css">
+    </head> 
+    <body>
+        <h1 class="centerByflex title">ToDo List</h1>
+        <main class="centerByX">
+            <!-- form tap -->
+            <div class="insert">
+                <input type="text" placeholder="Enter your task" id="inp" />
+                <button id="add">Add</button>
+            </div>
+            <!-- buttons to show all tap or completed tap or non completed tap -->
+            <div class="buttons">
+                <button class="focus" id="all">All</button>
+                <button id="complated">Complated</button>
+                <button id="non">Non Complated</button>
+            </div>
+            <!-- head of the -->
+            <div class="centerByX" id="thead">
+                <h3 class="one">No</h3>
+                <h3 class="two">Name</h3>
+                <h3 class="three">Otions</h3>
+            </div>
+            <div class="centerByX" id="box">
+            </div>
+            <div class="centerByX" id="comp">
+            </div>
+            <div class="centerByX" id="noncomp">
+            </div>
+            <!-- alert apper when user enty null value -->
+            <div id="alert">
+                <h1>error!</h1>
+                <i class="fa-solid fa-triangle-exclamation"></i>
+                <p>Please Enter your task first</p>
+                <button id="ok">Ok</button>
+            </div>
+            <!-- notfications -->
+             <div id="successadd">
+                <p>the task is adding</p>
+             </div>
+             <div id="successremove">
+                <p>the task is remove</p>
+             </div>
+             <div id="successedit">
+                <p>the task is editing</p>
+             </div>
+        </main>
+
+
+        <script src="./js/coding.js"></script>
+    </body>
+</html>

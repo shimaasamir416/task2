@@ -1,0 +1,96 @@
+body{
+    background-image:url(../images/pro3.png) ;
+    background-size: cover;
+}
+.ad2{
+    text-align: center;
+}
+.ad3{
+    text-align: center;
+}
+.ad4{
+    text-align: center;
+}
+.btn1{
+    background-color: rgb(48, 97, 121) ;
+    color: rgb(7, 22, 30) ;
+    margin-left:50px;
+}
+.btn2{
+    background-color: rgb(48, 97, 121) ;
+    color: rgb(7, 22, 30) ;
+    margin-left:50px;
+}
+.btn3{
+    background-color: rgb(48, 97, 121) ;
+    color: rgb(7, 22, 30) ;
+    margin-left:50px;
+}
+.div1{
+    width: 250px;
+    height: 30px;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(4, 26, 37);
+    color: rgb(160, 208, 230);
+}
+.div1:hover{
+    color: rgb(70, 153, 156); ;
+}
+.div2{
+    width: 200px;
+    height: 200px;
+    border: 5px solid rgb(3, 50, 71);
+    border-radius: 30px;
+    background-color: rgb(20, 188, 214);
+    color: rgb(7, 22, 30);
+    margin-left:20px ;
+}
+.div2:hover{
+    background-color:rgb(106, 179, 190);
+}
+.ad2:hover{
+    color:  rgb(15, 105, 153);
+}
+p:hover{
+    background-color:rgb(87, 114, 130) ;
+}
+.div3{
+    width: 200px;
+    height: 200px;
+    border: 5px solid rgb(3, 50, 71);
+    border-radius: 30px;
+    background-color: rgb(20, 188, 214);
+    color: rgb(7, 22, 30);
+    margin: auto;
+}
+.div3:hover{
+    background-color:rgb(106, 179, 190);
+}
+.ad3:hover{
+    color:  rgb(15, 105, 153);
+}
+.div4{
+    width: 200px;
+    height: 200px;
+    border: 5px solid rgb(3, 50, 71);
+    border-radius: 30px;
+    background-color: rgb(20, 188, 214);
+    color:  rgb(7, 22, 30);
+    margin-left:1200px; ;
+}
+.div4:hover{
+    background-color:rgb(106, 179, 190);
+}
+.ad4:hover{
+    color:  rgb(15, 105, 153);
+}
+.btn1:hover{
+    background-color: rgb(125, 141, 149);
+}
+.btn2:hover{
+    background-color: rgb(125, 141, 149);
+}
+.btn3:hover{
+    background-color: rgb(125, 141, 149);
+}
